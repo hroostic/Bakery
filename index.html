@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Traditional Artisax Bakery</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./modern-normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div>
+    <div class="hero-bg">
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="">About Us</a></li>
@@ -20,35 +24,35 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>TRADITIONAL ARTISAX-BAKERY</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <button class="shop-now">SHOP N OW</button>
+    <section class="hero container">
+        <h1>TRADITIONAL ARTISAX BAKERY</h1>
+        <p class="hero-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <button class="shop-now">SHOP NOW</button>
+        
+    <ul class="products container">
+        <li class="product-item">
+            <img src="./imgs/cookie.png" alt="American Cookie" class="product-item-img">
+            <p class="p-1">$8.00(kg)</p>
+            <p class="p-2">American Cookie</p>
+            <button class="buy-button">BUY</button>
+        </li>
+        <li class="product-item">
+            <img src="./imgs/croissant.png" alt="Croissant" class="product-item-img">
+            <p class="p-1">$4.00</p>
+            <p class="p-2">Crushed with Chocolate</p>
+            <button class="buy-button">BUY</button>
+        </li>
+        <li class="product-item">
+            <img src="./imgs/blackberry-pie.png" alt="Blackberry Pie" class="product-item-img">
+            <p class="p-1">For piece $4.00</p>
+            <p class="p-2">Blackberry pie</p>
+            <button class="buy-button">BUY</button>
+        </li>
+    </ul>
     </section>
 
-    <section class="products">
-        <div class="product-item">
-            <img src="./imgs/cookie.png" alt="American Cookie">
-            <p>$8.00(kg)</p>
-            <p>American Cookie</p>
-            <button class="buy-button">BUY</button>
-        </div>
-        <div class="product-item">
-            <img src="./imgs/croissant.png" alt="Croissant">
-            <p>$4.00</p>
-            <p>Crushed with Chocolate</p>
-            <button class="buy-button">BUY</button>
-        </div>
-        <div class="product-item">
-            <img src="./imgs/blackberry-pie.png" alt="Blackberry Pie">
-            <p>For piece $4.00</p>
-            <p>Blackberry pie</p>
-            <button class="buy-button">BUY</button>
-        </div>
-    </section>
-
-    <section class="menu">
+    <section class="menu container">
         <h2>Menu</h2>
         <div class="menu-item">
             <img src="./imgs/bread.png" alt="Bread">
@@ -121,14 +125,14 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
 
     <section class="contact">
         <div class="contact-item">
-            <h3>Where</h3>
+            <h3 cla >Where</h3>
             <img src="./imgs/map.png" alt="Map">
         </div>
         <div class="contact-item">
             <h3>How</h3>
-            <p>+38 055 123 13 12</p>
-            <p>Tik tok:@TRBekary</p>
-            <p>Inst:@TRBekary</p>
+            <p class="contact-p-1">+38 055 123 13 12</p>
+            <p class="contact-p-2">Tik tok:@TRBekary</p>
+            <p class="contact-p-3">Inst:@TRBekary</p>
         </div>
         <div class="contact-item">
             <h3>When</h3>
@@ -139,7 +143,7 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
     <footer>
         <div class="footer-section">
             <h3>TRADITIONAL ARTISAX BAKERY</h3>
-            <p>We want be helthy</p>
+            <p>We want be healthy</p>
         </div>
         <div class="footer-section">
             <h3>About</h3>
@@ -166,5 +170,6 @@ Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, wh
         </div>
         <p>©2022 Eatly All right riserved</p>
     </footer>
+    </div>
 </body>
 </html>
