@@ -1,0 +1,136 @@
+:root {
+--1: #202023;
+--2: #B47B48;
+--3: #FFFFFF;
+--4: #F2F2F24D;
+--5: #C85312;
+--6: #EBAD51;
+--7: #272727;}
+
+.container {
+max-width: 1440px;
+flex-wrap: wrap;}
+
+.hero-bg {
+background-image: url(./imgs/bg1.png);
+max-width: 1440px;
+background-repeat: no-repeat;
+;}
+
+.header {
+display: flex;
+flex-wrap: wrap;}
+
+nav ul li{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;}
+
+h1 {
+display: flex;
+max-width: 561px; 
+font-size: 70px;
+margin: 25px 150px;
+height: 170px;
+font-family: 'inter';
+font-weight: 200;
+letter-spacing: 2px;
+flex-wrap: wrap;}
+
+
+body {
+color: var(--3);;}
+
+nav ul {
+width: 558px;
+font-size: 24px;
+margin: 50px 160px;
+height: 29px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+padding: 0;
+font-weight: 200;
+flex-wrap: wrap;}
+
+a {
+text-decoration: none;
+color: var(--3);
+flex-wrap: wrap;
+display: flex;}
+
+.hero-p {
+width: 570.25px;
+font-family: 'Inter';
+font-size: 21px;
+font-weight: 300;
+margin: 22px 165px;
+word-spacing: 3px;
+flex-wrap: wrap;
+display: flex;}
+
+.shop-now {
+width: 207px;
+height: 57px;
+color: var(--3);
+background-color: var(--2);
+font-family: 'Inter';
+font-weight: 300;
+font-size: 24px;
+margin: 11px 165px;
+border-radius: 17px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;}
+
+.product-item {
+max-width: 310px;
+max-height: 225px;
+display: flex;
+background-color: var(--7);
+flex-wrap: wrap;
+margin: 125px 576px;
+outline: red solid 2px;}
+
+.buy-button {
+width: 79px;
+height: 34px;
+font-family: 'Inter';
+font-weight: 900;
+font-size: 16px;
+background-color: var(--5);
+color: var(--3);}
+
+.p-1 {
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 200;}
+
+.p-2 {
+font-family: 'Inter';
+font-size: 14px;}
+
+.products {
+display: flex;
+width: 1163px;}
+
+.menu {
+background-color: var(--1);
+}
+
+.quality {
+background-color: var(--1);
+}
+
+.contact {
+background-color: var(--1);
+}
+
+footer {
+background-color: #202023;
+padding: 0px;}
+
+.product-item-img {
+width: 162px;
+}
